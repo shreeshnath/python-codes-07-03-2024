@@ -1,0 +1,20 @@
+#3 Convert List of Dictionary to Tuple list Python.
+# taken form the  open source and modified .
+'''
+def convert(list_of_dicts):
+    tuple_list = []
+    for dictionary in list_of_dicts:
+        tuple_list.append(tuple(dictionary.items()))
+    return tuple_list
+
+
+     
+list_of_dictionaries = [
+    {'a': 1, 'b': 2, 'c': 3},
+    {'x': 10, 'y': 20, 'z': 30},
+    {'foo': 'bar', 'hello': 'world'}
+]
+tuple_list= convert(list_of_dictionaries)
+print(tuple_list)
+
+'''
