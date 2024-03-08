@@ -1,0 +1,15 @@
+#5 Python Program to find tuple indices from other tuple list.
+#taken form the  open source and modified .
+'''
+test_list = [(4, 5), (7, 6), (1, 0), (3, 4)]            
+
+print("The original list is : " + str(test_list))
+
+search_tup = [(3, 4), (8, 9), (7, 6), (1, 2)]
+ 
+lookup_dict = {val: key for key,val in enumerate(test_list)}
+ 
+res = [lookup_dict[idx] for idx in search_tup if idx in lookup_dict]
+ 
+print("The match tuple indices : " + str(res))
+'''
