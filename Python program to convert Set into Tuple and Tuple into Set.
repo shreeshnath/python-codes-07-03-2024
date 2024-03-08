@@ -1,0 +1,12 @@
+# 2.  Python program to convert Set into Tuple and Tuple into Set.
+'''
+input_set={1,2,3,4,5,6}
+converted_tuple=tuple(input_set )
+print("the input_set is converted in to the tuple",converted_tuple)
+
+
+input_tuple=(1,2,3,4,5,6)
+converted_set=set(input_tuple )
+print("the input_tuple is converted in to the set",converted_set)
+
+'''
